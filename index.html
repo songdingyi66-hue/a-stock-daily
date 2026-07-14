@@ -1,1 +1,115 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>A股日报</title><meta name="theme-color" content="#102019"><style>*{box-sizing:border-box}body{margin:0;background:#eef3ee;color:#17231b;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;padding-bottom:78px}.top{position:sticky;top:0;background:rgba(238,243,238,.94);backdrop-filter:blur(16px);z-index:5;padding:14px;border-bottom:1px solid #dce6dc}.brand{display:flex;justify-content:space-between;gap:12px;align-items:center}.brand h1{font-size:18px;margin:0}.brand p,.muted{font-size:12px;color:#667267;margin:3px 0 0}.logo{width:38px;height:38px;border-radius:10px;background:#102019;color:#dff4d6;display:grid;place-items:center;font-weight:900}.left{display:flex;gap:10px;align-items:center}.btn{border:1px solid #dce6dc;border-radius:999px;background:#fff;padding:8px 11px}.tabs{display:flex;gap:8px;overflow:auto;margin-top:12px}.tab{border:1px solid #dce6dc;background:#fff;border-radius:999px;padding:8px 13px;font-weight:800}.tab.on{background:#102019;color:white}.view{display:none;padding:14px}.view.on{display:block}.hero{background:linear-gradient(135deg,#102019,#24452e);color:white;border-radius:14px;padding:18px}.hero small{color:#bde8bd;font-weight:900}.hero h2{font-size:24px;line-height:1.15;margin:8px 0}.hero p{color:#d9e6dc;margin:0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.m,.card,.stock,.learn,.day{background:#fff;border:1px solid #dce6dc;border-radius:12px;box-shadow:0 10px 26px rgba(23,35,27,.08);padding:14px}.m span{display:block;color:#667267;font-size:12px}.m b{font-size:18px}.card{margin:12px 0}.card h3{margin:0 0 10px}.row{display:flex;gap:10px;border-top:1px solid #dce6dc;padding-top:10px;margin-top:10px}.row:first-of-type{border-top:0;margin-top:0;padding-top:0}.tag{min-width:56px;text-align:center;border-radius:999px;background:#edf4ea;color:#1e7b45;font-size:12px;font-weight:900;padding:5px 8px}.red{background:#fff0ee;color:#b33d35}.gold{background:#fff7e6;color:#986713}.blue{background:#eaf3fb;color:#315f8c}.row p{margin:0;font-size:14px;color:#334039}.check{display:flex;gap:10px;padding:12px;border:1px solid #dce6dc;border-radius:12px;margin:9px 0}.check input{width:20px;height:20px}.check b{display:block}.check span span{display:block;color:#667267;font-size:13px}.stock{margin:10px 0;background:#f7faf6}.stockhead,.dayhead{display:flex;justify-content:space-between;gap:10px}.badge{background:#1e7b45;color:white;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:900}.bar{height:8px;border-radius:99px;background:#e4ebe2;overflow:hidden;margin:8px 0}.bar i{display:block;height:100%;background:#1e7b45}.learn{margin:10px 0;border-left:4px solid #1e7b45}.days{display:grid;gap:10px}.day{text-align:left;width:100%}.day.on{outline:2px solid #1e7b45}.detail h3{margin:0 0 8px}.detail ul{margin:8px 0 0;padding-left:18px}.detail li{margin:6px 0}.bottom{position:fixed;left:0;right:0;bottom:0;background:#102019;padding:8px 12px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -10px 24px rgba(10,20,14,.22)}.bottom nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:920px;margin:auto}.nav{border:0;border-radius:10px;background:transparent;color:#b8c8bd;padding:9px 4px;font-weight:900}.nav.on{background:#203a2b;color:white}@media(min-width:720px){.app{max-width:920px;margin:auto}.grid{grid-template-columns:repeat(4,1fr)}}</style></head><body><div class="app"><header class="top"><div class="brand"><div class="left"><div class="logo">A</div><div><h1>A股日报驾驶舱</h1><p>热点、跟踪、学习、复盘</p></div></div><button class="btn" onclick="alert('后续每日自动任务会继续追加历史数据。')">同步</button></div><div class="tabs"><button class="tab on" data-v="today">今日</button><button class="tab" data-v="track">跟踪</button><button class="tab" data-v="learn">学习</button><button class="tab" data-v="history">历史</button></div></header><main><section class="view on" id="today"><div class="hero"><small>2026-07-14 · 手机版</small><h2>先看风险，再看机会；先看位置，再看故事。</h2><p>没有回踩确认，不把复盘结论当成追高理由。仅用于学习复盘。</p></div><div class="grid"><div class="m"><span>新仓态度</span><b>谨慎</b></div><div class="m"><span>风险等级</span><b>中</b></div><div class="m"><span>跟踪股票</span><b>2只</b></div><div class="m"><span>今日动作</span><b>等确认</b></div></div><div class="card"><h3>今日最优处理</h3><div class="row"><span class="tag red">纪律</span><p>不因为热点标题好看就追，先等回踩、承接、量能。</p></div><div class="row"><span class="tag gold">仓位</span><p>小白阶段宁愿错过，不要重仓试错。</p></div><div class="row"><span class="tag blue">复盘</span><p>收盘后只问：资金为什么来、我是否看懂、错了怎么退。</p></div></div><div class="card"><h3>今日纪律清单</h3><label class="check"><input type="checkbox" data-k="risk"><span><b>先看风险</b><span>买之前先写清楚失效条件。</span></span></label><label class="check"><input type="checkbox" data-k="chase"><span><b>不追高</b><span>高开太多，等第一波回落。</span></span></label></div></section><section class="view" id="track"><div class="card"><h3>持续跟踪</h3><article class="stock"><div class="stockhead"><b>航天发展</b><span class="badge">观察</span></div><p>看20.40-21.00元附近能否转强确认，不把远期目标当成短线追高理由。</p><div class="bar"><i style="width:76%"></i></div></article><article class="stock"><div class="stockhead"><b>中航沈飞</b><span class="badge">等回踩</span></div><p>偏军工核心观察，只等回踩确认，高开过多不追。</p><div class="bar"><i style="width:82%"></i></div></article></div></section><section class="view" id="learn"><div class="learn"><h3>今天学一个概念：追高</h3><p>追高不是价格涨了就不能买，而是你没有计划、没有承接、没有风险边界时冲进去。</p></div><div class="learn"><h3>小白优先级</h3><p>先练“看懂”和“等”，再练“买”。真正让你进步的是复盘。</p></div></section><section class="view" id="history"><div class="card"><h3>往日数据</h3><p class="muted">点日期可以看当天策略、跟踪股、学习点和复盘结论。</p><div class="days" id="days"></div></div><div class="card detail" id="detail"></div></section></main></div><footer class="bottom"><nav><button class="nav on" data-v="today">今日</button><button class="nav" data-v="track">跟踪</button><button class="nav" data-v="learn">学习</button><button class="nav" data-v="history">历史</button></nav></footer><script>const H=[{date:'2026-07-14',risk:'中',act:'等确认',summary:'先看风险，再看机会；没有回踩确认，不追高。',stocks:['航天发展：看20.40-21.00元附近转强确认','中航沈飞：只等回踩确认，高开过多不追'],learn:'追高不是价格涨了就不能买，而是没有计划、没有承接、没有风险边界。',review:'App升级为可看往日数据的结构，后续每天追加真实日报。'},{date:'2026-07-13',risk:'中',act:'迁移备用域名',summary:'chatgpt.site在手机端被拦，改用GitHub Pages保证可访问。',stocks:['航天发展：继续观察，不把远期目标当短线买点','中航沈飞：作为军工核心观察，只看承接'],learn:'先解决稳定可访问，再解决自动同步和数据沉淀。',review:'完成公网备用版，解决手机打不开问题。'},{date:'2026-07-12',risk:'中',act:'轻仓观察',summary:'如果高开太多，先等第一波回落；不把复盘结论当追高理由。',stocks:['航天发展：先看20.40-21.00元','中航沈飞：只等回踩确认'],learn:'每天固定跟踪1-2只股票，比每天换十个热点更能建立盘感。',review:'数据状态为行情降级，但仍保留风险提醒和跟踪框架。'}];const views=[...document.querySelectorAll('.view')],tabs=[...document.querySelectorAll('.tab,.nav')];function show(id){views.forEach(v=>v.classList.toggle('on',v.id===id));tabs.forEach(t=>t.classList.toggle('on',t.dataset.v===id));scrollTo(0,0)}tabs.forEach(t=>t.onclick=()=>show(t.dataset.v));document.querySelectorAll('input').forEach(c=>{let k='stock-'+c.dataset.k;c.checked=localStorage[k]==='1';c.onchange=()=>localStorage[k]=c.checked?'1':'0'});function pick(i){document.querySelectorAll('.day').forEach((b,n)=>b.classList.toggle('on',n===i));let x=H[i];detail.innerHTML='<h3>'+x.date+'</h3><p>'+x.summary+'</p><div class="grid"><div class="m"><span>风险</span><b>'+x.risk+'</b></div><div class="m"><span>动作</span><b>'+x.act+'</b></div></div><h3>跟踪股</h3><ul>'+x.stocks.map(s=>'<li>'+s+'</li>').join('')+'</ul><h3>学习点</h3><p>'+x.learn+'</p><h3>复盘结论</h3><p>'+x.review+'</p>'}days.innerHTML=H.map((x,i)=>'<button class="day" onclick="pick('+i+')"><div class="dayhead"><b>'+x.date+'</b><span class="badge">'+x.act+'</span></div><p>'+x.summary+'</p></button>').join('');pick(0);</script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>A股日报</title>
+  <meta name="theme-color" content="#102019">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#edf3ef;color:#17231b;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;padding-bottom:78px;line-height:1.45}.app{max-width:920px;margin:auto}.top{position:sticky;top:0;z-index:5;background:rgba(237,243,239,.95);backdrop-filter:blur(16px);border-bottom:1px solid #d9e4dc;padding:14px}.brand{display:flex;align-items:center;justify-content:space-between;gap:10px}.left{display:flex;align-items:center;gap:10px}.logo{width:38px;height:38px;border-radius:10px;background:#102019;color:#daf3d5;display:grid;place-items:center;font-weight:900}.brand h1{margin:0;font-size:18px}.brand p,.muted{margin:3px 0 0;color:#657267;font-size:12px}.sync{border:1px solid #d9e4dc;background:#fff;border-radius:999px;padding:8px 11px}.tabs{display:flex;gap:8px;overflow:auto;margin-top:12px}.tab,.nav{font-weight:900}.tab{border:1px solid #d9e4dc;background:#fff;border-radius:999px;padding:8px 13px;white-space:nowrap}.tab.on{background:#102019;color:#fff}.view{display:none;padding:14px}.view.on{display:block}.hero{background:linear-gradient(135deg,#102019,#274c34);color:#fff;border-radius:14px;padding:18px}.hero small{color:#bde8bd;font-weight:900}.hero h2{font-size:24px;line-height:1.15;margin:8px 0}.hero p{color:#dce9df;margin:0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.m,.card,.stock,.day,.note{background:#fff;border:1px solid #d9e4dc;border-radius:12px;box-shadow:0 10px 26px rgba(23,35,27,.08);padding:14px}.m span{display:block;color:#657267;font-size:12px}.m b{font-size:18px}.card{margin:12px 0}.card h3{margin:0 0 10px}.row{display:flex;gap:10px;border-top:1px solid #d9e4dc;padding-top:10px;margin-top:10px}.row:first-of-type{border-top:0;margin-top:0;padding-top:0}.tag{min-width:58px;text-align:center;border-radius:999px;background:#edf4ea;color:#1e7b45;font-size:12px;font-weight:900;padding:5px 8px}.red{background:#fff0ee;color:#b33d35}.gold{background:#fff7e6;color:#986713}.blue{background:#eaf3fb;color:#315f8c}.row p{margin:0;font-size:14px;color:#334039}.stock{margin:10px 0;background:#f8faf7}.stockhead,.dayhead{display:flex;justify-content:space-between;gap:10px;align-items:center}.badge{background:#1e7b45;color:white;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:900}.warn{background:#b33d35}.bar{height:8px;border-radius:99px;background:#e4ebe2;overflow:hidden;margin:8px 0}.bar i{display:block;height:100%;background:#1e7b45}.check{display:flex;gap:10px;border:1px solid #d9e4dc;border-radius:12px;padding:12px;margin:8px 0}.check input{width:20px;height:20px}.check b{display:block}.check span span{display:block;color:#657267;font-size:13px}.days{display:grid;gap:10px}.day{text-align:left;width:100%}.day.on{outline:2px solid #1e7b45}.detail ul{padding-left:18px}.detail li{margin:6px 0}.bottom{position:fixed;left:0;right:0;bottom:0;background:#102019;padding:8px 12px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -10px 24px rgba(10,20,14,.22)}.bottom nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:920px;margin:auto}.nav{border:0;border-radius:10px;background:transparent;color:#b8c8bd;padding:9px 4px}.nav.on{background:#203a2b;color:white}@media(min-width:720px){.grid{grid-template-columns:repeat(4,1fr)}.view{padding:18px}.hero h2{font-size:32px}}
+  </style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <div class="left"><div class="logo">A</div><div><h1>A股日报驾驶舱</h1><p>结论、证据、跟踪、复盘</p></div></div>
+      <button class="sync" onclick="alert('下一步会接入每日自动追加，当前先展示研究系统结构。')">同步</button>
+    </div>
+    <div class="tabs">
+      <button class="tab on" data-v="today">今日</button>
+      <button class="tab" data-v="proof">证据</button>
+      <button class="tab" data-v="track">跟踪</button>
+      <button class="tab" data-v="history">历史</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="view on" id="today">
+      <div class="hero">
+        <small>2026-07-14 · 研究系统版</small>
+        <h2>今日不追高，只看军工主线能否放量延续。</h2>
+        <p>最优动作：观察。只有板块继续放量、个股回踩不破，才把候选股升级为可研究对象。</p>
+      </div>
+      <div class="grid">
+        <div class="m"><span>今日动作</span><b>观察</b></div>
+        <div class="m"><span>风险等级</span><b>中</b></div>
+        <div class="m"><span>数据状态</span><b>降级</b></div>
+        <div class="m"><span>核心跟踪</span><b>2只</b></div>
+      </div>
+      <div class="card">
+        <h3>10秒决策</h3>
+        <div class="row"><span class="tag red">不做</span><p>不因为军工、半导体、机器人这些词热就追。今天没有“必须买”的信号。</p></div>
+        <div class="row"><span class="tag gold">只看</span><p>看军工航空是否继续放量；航天发展是否靠近20.40-21.00元转强区。</p></div>
+        <div class="row"><span class="tag blue">验证</span><p>如果明天高开后回落但不破关键位，才说明有承接；冲高回落则降级。</p></div>
+      </div>
+      <div class="card">
+        <h3>今天的三个问题</h3>
+        <label class="check"><input type="checkbox" data-k="q1"><span><b>板块有没有连续性？</b><span>不是一天热闹，而是连续放量、前排不炸。</span></span></label>
+        <label class="check"><input type="checkbox" data-k="q2"><span><b>个股有没有关键位？</b><span>航天发展核心看20.40-21.00元，不看成本价幻想。</span></span></label>
+        <label class="check"><input type="checkbox" data-k="q3"><span><b>错了怎么办？</b><span>跌破防守区且不能收回，先降风险。</span></span></label>
+      </div>
+    </section>
+
+    <section class="view" id="proof">
+      <div class="card">
+        <h3>判断证据</h3>
+        <div class="row"><span class="tag red">数据</span><p>实时行情源异常，所以今天不能用“精确涨跌幅”做判断，只能用关键价位和板块连续性过滤。</p></div>
+        <div class="row"><span class="tag">主线</span><p>优先检查交易软件里的军工航空、半导体设备、机器人、汽车智能化是否仍有成交和前排领涨。</p></div>
+        <div class="row"><span class="tag gold">结论</span><p>数据不充分时，最优解不是猜，而是降低交易冲动，把候选股放进观察池。</p></div>
+      </div>
+      <div class="card">
+        <h3>昨日判断验证</h3>
+        <div class="row"><span class="tag blue">对</span><p>“不追高、等确认”仍成立，因为没有可靠数据支持直接提高仓位。</p></div>
+        <div class="row"><span class="tag red">缺口</span><p>页面还缺真实行情同步，导致信息价值不足。下一步要把日报数据自动写入 App。</p></div>
+      </div>
+    </section>
+
+    <section class="view" id="track">
+      <div class="card">
+        <h3>持续跟踪股票</h3>
+        <article class="stock">
+          <div class="stockhead"><b>航天发展 000547</b><span class="badge warn">持仓重点</span></div>
+          <p>最新可得价约16.35元，距24.70元成本仍需约51%修复。当前重点不是“等回本”，而是先看能否站上20.40-21.00元。</p>
+          <div class="bar"><i style="width:52%"></i></div>
+          <div class="row"><span class="tag">触发</span><p>站稳20.40-21.00元并放量，才上调回本概率。</p></div>
+          <div class="row"><span class="tag red">失效</span><p>跌破18元附近且不能收回，优先按风险处理。</p></div>
+        </article>
+        <article class="stock">
+          <div class="stockhead"><b>中航沈飞 600760</b><span class="badge">风向标</span></div>
+          <p>不是主要买入目标，主要用来判断军工航空是否真有主线强度。</p>
+          <div class="bar"><i style="width:68%"></i></div>
+          <div class="row"><span class="tag">触发</span><p>板块放量且回踩承接，继续保留观察。</p></div>
+          <div class="row"><span class="tag red">失效</span><p>军工板块退潮或缩量冲高回落，降低优先级。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="history">
+      <div class="card">
+        <h3>往日数据</h3>
+        <p class="muted">点日期看当天结论、证据、跟踪股和复盘。</p>
+        <div class="days" id="days"></div>
+      </div>
+      <div class="card detail" id="detail"></div>
+    </section>
+  </main>
+</div>
+
+<footer class="bottom"><nav><button class="nav on" data-v="today">今日</button><button class="nav" data-v="proof">证据</button><button class="nav" data-v="track">跟踪</button><button class="nav" data-v="history">历史</button></nav></footer>
+
+<script>
+const H=[
+ {date:'2026-07-14',act:'观察',summary:'页面升级为研究系统版：结论必须配证据，跟踪股必须有触发和失效条件。',proof:'数据仍为降级状态，所以不做精确行情判断。',stocks:['航天发展：看20.40-21.00元转强区','中航沈飞：军工航空风向标'],review:'从“好看的页面”升级到“能复盘的结构”。'},
+ {date:'2026-07-13',act:'等确认',summary:'轻仓观察；高开太多先等回落，没有回踩确认不追。',proof:'多个实时数据源异常，使用关键价位和条件区间。',stocks:['航天发展：最新可得价16.35元，距成本仍需约51%','中航沈飞：只看板块风向'],review:'判断保守是对的，但页面信息颗粒度不足。'},
+ {date:'2026-07-12',act:'轻仓观察',summary:'如果高开太多，先等第一波回落。',proof:'数据状态为行情降级。',stocks:['航天发展：先看20.40-21.00元','中航沈飞：等待回踩确认'],review:'历史页开始沉淀，但需要每日自动追加。'}
+];
+const views=[...document.querySelectorAll('.view')],tabs=[...document.querySelectorAll('.tab,.nav')];
+function show(id){views.forEach(v=>v.classList.toggle('on',v.id===id));tabs.forEach(t=>t.classList.toggle('on',t.dataset.v===id));scrollTo(0,0)}
+tabs.forEach(t=>t.onclick=()=>show(t.dataset.v));
+document.querySelectorAll('input').forEach(c=>{let k='stock-'+c.dataset.k;c.checked=localStorage[k]==='1';c.onchange=()=>localStorage[k]=c.checked?'1':'0'});
+function pick(i){document.querySelectorAll('.day').forEach((b,n)=>b.classList.toggle('on',n===i));let x=H[i];detail.innerHTML='<h3>'+x.date+'</h3><p>'+x.summary+'</p><div class="grid"><div class="m"><span>动作</span><b>'+x.act+'</b></div><div class="m"><span>记录</span><b>'+x.stocks.length+'条</b></div></div><h3>证据</h3><p>'+x.proof+'</p><h3>跟踪股</h3><ul>'+x.stocks.map(s=>'<li>'+s+'</li>').join('')+'</ul><h3>复盘</h3><p>'+x.review+'</p>'}
+days.innerHTML=H.map((x,i)=>'<button class="day" onclick="pick('+i+')"><div class="dayhead"><b>'+x.date+'</b><span class="badge">'+x.act+'</span></div><p>'+x.summary+'</p></button>').join('');
+pick(0);
+</script>
+</body></html>
